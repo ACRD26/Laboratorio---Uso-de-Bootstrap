@@ -1,1 +1,75 @@
-index.html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tarjeta Personal - Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="text-center mt-4 mb-4">Mi Tarjeta Personal</h1>
+
+        <div class="text-center mb-4">
+            <button class="btn btn-primary">Azul</button>
+            <button class="btn btn-success">Verde</button>
+            <button class="btn btn-danger">Rojo</button>
+        </div>
+
+        <hr>
+
+        <h2>Perfil</h2>
+
+        <p class="text-start">Tecnóloga en Desarrollo Gráfico de Proyectos de Arquitectura e Ingeniería y Dibujante de Redes FTTH. Actualmente estoy en formación como Desarrolladora Junior Full-Stack/Java en Generation Colombia. Me interesa la tecnología, la programación y seguir aprendiendo nuevas habilidades.</p>
+
+        <p class="text-center text-danger"></p>
+
+        <p class="text-end">Herramientas: Git/GitHub - JavaScript - HTML - CSS </p>
+
+        <hr>
+
+        <!-- TAREA 5: Tarjeta personal -->
+        <div class="card mx-auto mb-5" style="max-width: 400px;">
+
+            <!-- Encabezado -->
+            <div class="card-header text-center">
+                Mi Perfil
+            </div>
+
+            <!-- Imagen -->
+            <img src="Imagenes/pexels-borisk-12200696.jpg "
+                class="card-img-top"
+                alt="Imagen de perfil">
+
+            <!-- Contenido -->
+            <div class="card-body">
+                <h5 class="card-title text-center">Aura Rodriguez</h5>
+                <p class="card-text text-center">
+                    Esta es mi tarjeta personal 👩
+                </p>
+            </div>
+
+            <!-- Grupo de listas -->
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nombre: Aura Rodriguez</li>
+                <li class="list-group-item">Ciudad: Bogotá</li>
+                <li class="list-group-item">Hobby: Leer, Dibujar y Aprender cosas nuevas</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
